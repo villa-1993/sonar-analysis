@@ -26,6 +26,3 @@ steps:
     SonarQube: 'nisum-sonar'
     scannerMode: 'CLI'
     configMode: 'file'
-- task: SonarQubePublish@4
-  inputs:
-    pollingTimeoutSec: '300'
